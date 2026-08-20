@@ -1,36 +1,3 @@
-The radar system uses four input channels. The received signals are converted using ADC and processed using FFT-based signal processing.
-
-🧠 Signal Processing
-1. ADC Conversion
-
-The received analog radar signals are converted into digital samples.
-
-2. Windowing
-
-Windowing is applied before FFT processing to improve the frequency spectrum and reduce unwanted side lobes.
-
-3. 1D FFT
-
-The first FFT is used to extract frequency information associated with the target range.
-
-4. 2D FFT
-
-A second FFT is used to obtain additional information related to target velocity and angle.
-
-5. Range-Doppler Mapping
-
-The processed radar data is represented using a Range-Doppler Map (RDM).
-
-This helps identify targets based on:
-
-Range   → Distance from vehicle
-Doppler → Relative velocity
-6. Peak Detection
-
-Significant peaks in the processed radar signal are detected as potential targets.
-
-7. Target Tracking
-
 # ADAS Blind-Spot Detection
 
 An automotive blind-spot detection (BSD) research project based on FMCW radar signal processing, target tracking, and a proposed machine-learning threat assessment layer.
@@ -211,4 +178,3 @@ Contributions should include a clear description of the change, reproducible exp
 ## License
 
 No license has been declared for this repository yet. Add a license before distributing source code, datasets, trained models, or derivative work.
-Combine radar with a camera:
