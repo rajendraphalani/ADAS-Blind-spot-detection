@@ -73,3 +73,34 @@ Target Tracking
 Blind Spot Decision
      ↓
 Driver Warning
+
+Radar Transmitter
+       ↓
+Target Vehicle
+       ↓
+Radar Receiver
+       ↓
+ADC
+       ↓
+Windowing
+       ↓
+1D FFT
+       ↓
+2D Windowing
+       ↓
+2D FFT
+       ↓
+Angle Detection
+       ↓
+Range-Doppler Mapping
+       ↓
+Peak Detection
+       ↓
+Target Sorting
+       ↓
+Target Tracking
+       ↓
+Warning Logic
+       ↓
+CAN / GUI
+
